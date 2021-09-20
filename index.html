@@ -2,45 +2,60 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Jack's Site</title>
+    <title>Jack O'Brien</title>
+    <link rel="stylesheet" href="static/CSS/styles.css">
+    <link rel="icon" href="favicon.ico">
   </head>
   <body>
-    <table cellspacing = "20">
-      <td><img src="https://media-exp1.licdn.com/dms/image/C4D03AQHjBc_0sSuaVw/profile-displayphoto-shrink_400_400/0/1576719296609?e=1634169600&v=beta&t=YIB3xSCsBFicuqk8zSY-8MmmlBbqEJgn_VQ9CdjxbY0" alt="Jack O'Brien"></td>
-      <td><h1>Jack O'Brien</h1>
-      <p><em>Validation and Verification Engineer at <strong>Hitachi Rail</strong></em></p>
-      <hr>
-      <h3>Education - Case Western Reserve University</h3>
-      <ul>
-        <li> B.S in Electrical Engineering
-        <li> Focus in Circuit Design
-        <li> Minor Technical Theater
-      </ul>
-      </td>
-    </table>
+    <div class = "top-container">
+      <img class = "headshot" src="static/images/jackheadshot.jpg" alt="jack-img">
+      <h1>Jack O'Brien</h1>
 
-    <table cellspacing = "20">
-      <thead>
-        <th>Dates</th>
-        <th>Position</th>
-        <th>Company</th>
-      </thead>
-      <tr>
-        <td>June 2020 - Present</td>
-        <td>Verification and Validation Engineer</td>
-        <td>Hitachi Rail</td>
-      </tr>
-      <tr>
-        <td>June 2018 - August 2018</td>
-        <td>Senior Electrical Enigneering Intern</td>
-        <td>Boyce Technologies</td>
-      </tr>
-      <tr>
-        <td>June 2017 - August 2017</td>
-        <td>Electrical Engineering Intern</td>
-        <td>Boyce Technologies</td>
-      </tr>
-    </table>
-    <a href="contact.html">My Contact Info</a>
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+
+        <p>I'm currently an electrical engineer working for Hitachi Rail</p>
+      </div>
+
+      <div class="skills">
+        <h2>Skills</h2>
+        <div class="skill-row">
+          <img class="rail" src="static/images/rail.png" alt="rail-img">
+          <h3>Validation and Testing</h3>
+          <p>Wrote field and lab test procedures for MTA CBTC Signaling and Vehicle upgrade project</p>
+          <p>Ensured integration tests followed customer and safety requirements </p>
+          <p>Set up and troubleshot lab testing environment</p>
+          <p>Reviewed and presented construction and design safety evidence to safety assessor</p>
+        </div>
+        <div class="skill-row">
+          <img class="circuit" src="static/images/circuit.png" alt="circuit-img">
+          <h3>Circuit Design and Layout</h3>
+          <p>Fabricated and designed prototype circuit boards in OrCAD</p>
+          <p>Created PCB layouts in Diptrace</p>
+          <p>Worked on design of interactive 5G Cell tower installed in New Rochelle</p>
+        </div>
+        <div class="skill-row">
+          <img class="computer" src="static/images/1006363.png" alt="comp-img">
+          <h3>Programming</h3>
+          <p>Self Taught Programmer in Python</p>
+          <p>Experience using Pandas, Numpy, and Matplotlib</p>
+          <p>Knowledge of HTML and CSS</p>
+        </div>
+
+      </div>
+
+      <div class="contact-me">
+        <a class="btn" href="mailto:jack.s.obrien@email.com">CONTACT ME</a>
+      </div>
+    </div>
+
+
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/jack-o-brien-aa3680151/">LinkedIn</a>
+      <p>© 2021.</p>
+      <div>Icons made by <a href="https://www.flaticon.com/authors/payungkead" title="Payungkead">Payungkead</a>  and <a href="https://www.flaticon.com/authors/dinosoftlabs" title="DinosoftLabs">DinosoftLabs</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </div>
+
   </body>
 </html>
